@@ -2050,14 +2050,14 @@ style "dark_frame" {
     image {
       function = SHADOW
       file     = "assets-dark/frame-dark.png"
-      border   = {1, 1, 1, 1}
+      # border   = {1, 1, 1, 1}
       stretch  = TRUE
     }
 
     image {
       function       = SHADOW_GAP
       file           = "assets-dark/frame-dark.png"
-      border         = {1, 1, 1, 1}
+      # border         = {1, 1, 1, 1}
       stretch        = TRUE
       gap_start_file = "assets-dark/border-dark.png"
       gap_end_file   = "assets-dark/border-dark.png"
